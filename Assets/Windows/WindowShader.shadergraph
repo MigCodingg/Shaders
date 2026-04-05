@@ -74,10 +74,13 @@
             "m_Id": "4210f52638d04912a19f87ea7fb2c016"
         },
         {
-            "m_Id": "d31261618fce427f87df8b77535db87a"
+            "m_Id": "98fcd2a071dc4c8ab79e10ec26e9a3da"
         },
         {
-            "m_Id": "98fcd2a071dc4c8ab79e10ec26e9a3da"
+            "m_Id": "0ffeadd8a70d4e2fa4c4fd6a7844bfde"
+        },
+        {
+            "m_Id": "d31261618fce427f87df8b77535db87a"
         }
     ],
     "m_Nodes": [
@@ -4047,6 +4050,24 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "0ffeadd8a70d4e2fa4c4fd6a7844bfde",
+    "m_Name": "Stone",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "fc2f32e6de4640c6955f6610720591c0"
+        },
+        {
+            "m_Id": "d8f5dca3e26744888096674361b380ff"
+        },
+        {
+            "m_Id": "3c448d62b4c341ee895a2839d133b6be"
+        }
+    ]
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "10c32499290246c488f7099d89f7de94",
     "m_Id": 1,
@@ -5185,10 +5206,10 @@
     "m_Guid": {
         "m_GuidSerialized": "6d70a80d-edab-4a01-948d-0df0279d0eec"
     },
-    "m_Name": "Float (2)",
+    "m_Name": "SubWindowOffset",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Float (2)",
-    "m_DefaultReferenceName": "_Float_2",
+    "m_RefNameGeneratedByDisplayName": "SubWindowOffset",
+    "m_DefaultReferenceName": "_SubWindowOffset",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -6537,50 +6558,7 @@
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "4210f52638d04912a19f87ea7fb2c016",
     "m_Name": "",
-    "m_ChildObjectList": [
-        {
-            "m_Id": "60180cffe1e3475c940634af9af46334"
-        },
-        {
-            "m_Id": "981880ff1b224b7abba8565bdf9ede76"
-        },
-        {
-            "m_Id": "e30e3710d0be45f792e34c4f8176178f"
-        },
-        {
-            "m_Id": "2abe6f2b1e454123bbc34ecfd8bbda42"
-        },
-        {
-            "m_Id": "7bfe7a4265ac4328bb8fec2f9baa7118"
-        },
-        {
-            "m_Id": "ff0ca46048474621b85265f3b0bf63b6"
-        },
-        {
-            "m_Id": "6621aeb3c01f4827944989b63eb6f480"
-        },
-        {
-            "m_Id": "aba4faa09cd84668ad4779602fbff8b7"
-        },
-        {
-            "m_Id": "47798e8df4424d2e94d52ccfeedcd2f0"
-        },
-        {
-            "m_Id": "3147d975aa0d4c488fefe004b9aea4ab"
-        },
-        {
-            "m_Id": "0b13057475ed4414b335e6a02c0be3f1"
-        },
-        {
-            "m_Id": "fc2f32e6de4640c6955f6610720591c0"
-        },
-        {
-            "m_Id": "3c448d62b4c341ee895a2839d133b6be"
-        },
-        {
-            "m_Id": "d8f5dca3e26744888096674361b380ff"
-        }
-    ]
+    "m_ChildObjectList": []
 }
 
 {
@@ -9243,10 +9221,10 @@
     "m_Guid": {
         "m_GuidSerialized": "d4b5c924-0677-4acf-87e0-8e5dbb3b13ea"
     },
-    "m_Name": "Float (5)",
+    "m_Name": "MainWindowWeight",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Float (5)",
-    "m_DefaultReferenceName": "_Float_5",
+    "m_RefNameGeneratedByDisplayName": "MainWindowWeight",
+    "m_DefaultReferenceName": "_MainWindowWeight",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -10399,10 +10377,10 @@
     "m_Guid": {
         "m_GuidSerialized": "e4df61f9-e15b-473d-bf5b-ddf3c5e78777"
     },
-    "m_Name": "Float (3)",
+    "m_Name": "SubwindowDensity",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Float (3)",
-    "m_DefaultReferenceName": "_Float_3",
+    "m_RefNameGeneratedByDisplayName": "SubwindowDensity",
+    "m_DefaultReferenceName": "_SubwindowDensity",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -12509,10 +12487,10 @@
     "m_Guid": {
         "m_GuidSerialized": "b4e4526e-b024-43f2-9a66-caa2c5b302d0"
     },
-    "m_Name": "Float",
+    "m_Name": "MainWindowShape",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Float",
-    "m_DefaultReferenceName": "_Float",
+    "m_RefNameGeneratedByDisplayName": "MainWindowShape",
+    "m_DefaultReferenceName": "_MainWindowShape",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -12612,16 +12590,34 @@
     "m_Name": "WindowCells",
     "m_ChildObjectList": [
         {
-            "m_Id": "3ca6852091ae4774b69cbd7e6f8375ca"
+            "m_Id": "60180cffe1e3475c940634af9af46334"
         },
         {
-            "m_Id": "3bcec7f18d0442dc9c66aafc02d917fb"
+            "m_Id": "47798e8df4424d2e94d52ccfeedcd2f0"
         },
         {
-            "m_Id": "0ae3b2757d564b768ac0474ec78689d6"
+            "m_Id": "3147d975aa0d4c488fefe004b9aea4ab"
         },
         {
-            "m_Id": "44a642a761ca4202bca21c65b383bc68"
+            "m_Id": "981880ff1b224b7abba8565bdf9ede76"
+        },
+        {
+            "m_Id": "e30e3710d0be45f792e34c4f8176178f"
+        },
+        {
+            "m_Id": "6621aeb3c01f4827944989b63eb6f480"
+        },
+        {
+            "m_Id": "ff0ca46048474621b85265f3b0bf63b6"
+        },
+        {
+            "m_Id": "2abe6f2b1e454123bbc34ecfd8bbda42"
+        },
+        {
+            "m_Id": "7bfe7a4265ac4328bb8fec2f9baa7118"
+        },
+        {
+            "m_Id": "aba4faa09cd84668ad4779602fbff8b7"
         }
     ]
 }
@@ -14186,10 +14182,10 @@
     "m_Guid": {
         "m_GuidSerialized": "3fdfc516-c2da-4eb2-872f-a122adf324af"
     },
-    "m_Name": "Float (6)",
+    "m_Name": "SubWindowWeight",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Float (6)",
-    "m_DefaultReferenceName": "_Float_6",
+    "m_RefNameGeneratedByDisplayName": "SubWindowWeight",
+    "m_DefaultReferenceName": "_SubWindowWeight",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -17483,7 +17479,22 @@
     "m_Name": "Color",
     "m_ChildObjectList": [
         {
+            "m_Id": "3ca6852091ae4774b69cbd7e6f8375ca"
+        },
+        {
+            "m_Id": "3bcec7f18d0442dc9c66aafc02d917fb"
+        },
+        {
+            "m_Id": "0ae3b2757d564b768ac0474ec78689d6"
+        },
+        {
+            "m_Id": "44a642a761ca4202bca21c65b383bc68"
+        },
+        {
             "m_Id": "21c89d50f55f49c3a998935766f1e3fa"
+        },
+        {
+            "m_Id": "0b13057475ed4414b335e6a02c0be3f1"
         },
         {
             "m_Id": "b69070fa582743efba657561ac1f931b"
@@ -18577,10 +18588,10 @@
     "m_Guid": {
         "m_GuidSerialized": "4e42bf62-03b1-497c-ad3c-4dec24268904"
     },
-    "m_Name": "Float (1)",
+    "m_Name": "MainWindowRotation",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Float (1)",
-    "m_DefaultReferenceName": "_Float_1",
+    "m_RefNameGeneratedByDisplayName": "MainWindowRotation",
+    "m_DefaultReferenceName": "_MainWindowRotation",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -20382,10 +20393,10 @@
     "m_Guid": {
         "m_GuidSerialized": "d04af45f-d346-4a2f-ba15-bd2ec40f6d8c"
     },
-    "m_Name": "Float (4)",
+    "m_Name": "SubWindowRotation",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Float (4)",
-    "m_DefaultReferenceName": "_Float_4",
+    "m_RefNameGeneratedByDisplayName": "SubWindowRotation",
+    "m_DefaultReferenceName": "_SubWindowRotation",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
