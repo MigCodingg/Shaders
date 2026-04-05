@@ -129,7 +129,7 @@ Material:
     - _FoamAmount: 0.95
     - _FoamCutOut: 0.33
     - _FoamDepth: 0.71
-    - _FoamFallOff: 0.67
+    - _FoamFallOff: 1.93
     - _FoamShoreWidth: 1.45
     - _FoamTiling: -0.71
     - _GlossMapScale: 0
@@ -162,9 +162,9 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FoamSpeed: {r: 0, g: 0.19, b: 0, a: 0}
+    - _FoamSpeed: {r: 0, g: 0.1, b: 0, a: 0}
     - _MainColor: {r: 0.16860797, g: 0.38892183, b: 0.4490565, a: 1}
-    - _ShoreColor: {r: 0.66482735, g: 0.8930471, b: 0.93962264, a: 1}
+    - _ShoreColor: {r: 0.520833, g: 0.7831846, b: 0.83396226, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _WaterColor: {r: 0.4353364, g: 0.86415094, b: 0.84909034, a: 0}
   m_BuildTextureStacks: []

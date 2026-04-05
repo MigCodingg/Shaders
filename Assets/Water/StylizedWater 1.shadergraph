@@ -2514,7 +2514,7 @@
     "m_Title": "Color",
     "m_Position": {
         "x": -1995.2001953125,
-        "y": 1327.9998779296875
+        "y": 1328.0
     }
 }
 
@@ -4890,7 +4890,7 @@
     "m_ObjectId": "707f1b8f533e4be3bd2047c33153dd9c",
     "m_Title": "Wave",
     "m_Position": {
-        "x": -2344.800048828125,
+        "x": -2344.7998046875,
         "y": -2360.0
     }
 }
@@ -5325,7 +5325,7 @@
     "m_ObjectId": "7bcd35ec2fcc45d08ab510e5e82cd559",
     "m_Title": "Foam",
     "m_Position": {
-        "x": -4189.599609375,
+        "x": -4189.60009765625,
         "y": -1096.0
     }
 }
@@ -9213,7 +9213,7 @@
     "m_Title": "Caustics",
     "m_Position": {
         "x": -3952.000244140625,
-        "y": 986.39990234375
+        "y": 986.4000244140625
     }
 }
 
@@ -9961,7 +9961,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "Alpha",
     "m_StageCapability": 2,
-    "m_Value": 1.0,
+    "m_Value": 0.8700000047683716,
     "m_DefaultValue": 1.0,
     "m_Labels": []
 }
